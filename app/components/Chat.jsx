@@ -8,7 +8,7 @@ export default function Chat() {
 
     // updates chats
     channel.bind("message", (data) => {
-      console.log("This is your chat message", data);
+      alert("This is your chat message", data);
     });
 
     const triggerMessage = async () => {
